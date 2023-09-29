@@ -9,4 +9,14 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --text-color: #353430;
+  --family: "IBM Plex mono", sans-serif;
+  --fs-base: 18px;
+  --bg-color: #FFF1F7;
+  --bg-image: url(../images/cover-image-light.png);
+  --text-bg-color: #FF8DCB;
+}
+
+.section__title {
+  color: var(--text-color);
 }
